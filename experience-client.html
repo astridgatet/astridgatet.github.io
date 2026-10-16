@@ -1,16 +1,49 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="fr">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/>
 <title>Expérience client : mon regard | Astrid Gatet</title>
-<meta name="description" content="Le regard d'Astrid Gatet sur l'expérience client : indicateurs, circulation de l'information, équipes et apprentissage des retours clients.">
+<meta content="Le regard d'Astrid Gatet sur l'expérience client : indicateurs, circulation de l'information, équipes et apprentissage des retours clients." name="description"/>
 <style>
 :root{--ink:#344b60;--muted:#697a86;--ivory:#faf8f2;--sand:#eeeae1;--line:#dcdedb;--white:#fff;--accent:#dbe5e9}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--ivory);color:var(--ink);font-family:Arial,Helvetica,sans-serif;line-height:1.75}a{color:inherit}.container{width:min(1100px,calc(100% - 44px));margin:auto}.top{border-bottom:1px solid var(--line);background:rgba(250,248,242,.95)}.nav{display:flex;justify-content:space-between;align-items:center;gap:24px;min-height:88px}.brand{font-family:Georgia,serif;font-size:24px;letter-spacing:.01em;text-decoration:none}.navlinks{display:flex;gap:26px;align-items:center;flex-wrap:wrap}.navlinks a{text-decoration:none;font-size:13px;letter-spacing:.04em}.navlinks a:hover{text-decoration:underline;text-underline-offset:6px}.hero{padding:105px 0 80px;position:relative;overflow:hidden}.hero:after{content:"";position:absolute;right:-110px;top:15px;width:390px;height:390px;border-radius:50%;background:radial-gradient(circle at 40% 35%,#e3edf0,#c8d6dd 65%,transparent 70%);opacity:.55;pointer-events:none}.eyebrow{font-size:11px;text-transform:uppercase;letter-spacing:.22em;font-weight:700;color:var(--muted)}h1,h2,.quote{font-family:Georgia,'Times New Roman',serif;font-weight:400;line-height:1.16}h1{font-size:clamp(42px,6vw,78px);max-width:860px;margin:26px 0;position:relative;z-index:1;letter-spacing:-.035em}h2{font-size:clamp(30px,3.4vw,44px);margin:0 0 22px;letter-spacing:-.025em}.lead{font-size:clamp(19px,2.1vw,24px);max-width:730px;line-height:1.55;color:#50677a}.intro{max-width:750px;font-size:17px;padding:20px 0 90px}.intro p{margin:0 0 22px}.content{border-top:1px solid var(--line)}.section{display:grid;grid-template-columns:1fr 1.7fr;gap:80px;padding:74px 0;border-bottom:1px solid var(--line)}.section .number{color:#8293a0;font-size:12px;letter-spacing:.2em}.section p{margin:0 0 18px;color:#526779;font-size:16px}.section p:last-child{margin-bottom:0}.closing{padding:105px 0;text-align:center}.quote{max-width:870px;margin:0 auto 35px;font-size:clamp(27px,3.5vw,44px)}.pill{display:inline-flex;align-items:center;gap:14px;padding:15px 27px;border:1px solid var(--ink);border-radius:999px;text-decoration:none;font-size:13px;transition:background .25s,color .25s,transform .25s,box-shadow .25s}.pill:hover{background:var(--ink);color:var(--white);transform:translateY(-3px);box-shadow:0 12px 28px #344b6024}.footer{border-top:1px solid var(--line);padding:30px 0;color:var(--muted);font-size:12px}.footer .container{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}.reveal{opacity:0;transform:translateY(20px);transition:opacity .7s,transform .7s}.reveal.visible{opacity:1;transform:none}@media(max-width:700px){.nav{padding:20px 0;align-items:flex-start;flex-direction:column}.navlinks{gap:16px}.hero{padding:65px 0 45px}.hero:after{width:220px;height:220px;right:-130px;top:50px}.intro{padding-bottom:55px}.section{grid-template-columns:1fr;gap:16px;padding:45px 0}.closing{padding:70px 0}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:none}.pill{transition:none}}
 </style>
-</head>
+<style>
+/* Navigation unifiée Astrid Gatet — indépendante des anciens styles */
+.ag-header-wrap{display:flex!important;align-items:center!important;justify-content:space-between!important;gap:24px!important;flex-wrap:nowrap!important;min-height:92px}
+.ag-nav{display:flex!important;align-items:center!important;justify-content:flex-end!important;gap:clamp(12px,2vw,28px)!important;flex:1 1 auto!important;width:auto!important;position:static!important;transform:none!important;background:transparent!important;padding:0!important;border:0!important;box-shadow:none!important;opacity:1!important;visibility:visible!important;white-space:nowrap!important}
+.ag-nav>a,.ag-nav summary{font-family:inherit!important;font-size:clamp(13px,1.12vw,16px)!important;font-weight:500!important;color:#193c50!important;text-decoration:none!important;line-height:1.4!important;letter-spacing:0!important;cursor:pointer!important;display:inline-flex!important;align-items:center!important;gap:5px!important;padding:11px 2px!important;border:0!important;background:transparent!important}
+.ag-nav>a:hover,.ag-nav summary:hover,.ag-dropdown-panel a:hover{color:#5685a0!important}
+.ag-nav .ag-contact{padding:11px 20px!important;background:#fff!important;border-radius:999px!important;box-shadow:0 5px 22px rgba(28,66,86,.06)!important}
+.ag-dropdown{position:relative!important;display:block!important;margin:0!important;padding:0!important}
+.ag-dropdown summary{list-style:none!important;user-select:none}.ag-dropdown summary::-webkit-details-marker{display:none}
+.ag-dropdown summary span{font-size:17px;transition:transform .2s}.ag-dropdown[open] summary span{transform:rotate(180deg)}
+.ag-dropdown-panel{position:absolute!important;right:-26px!important;top:calc(100% + 4px)!important;min-width:255px!important;background:#fffdf9!important;border:1px solid rgba(30,65,80,.12)!important;border-radius:17px!important;padding:10px!important;box-shadow:0 15px 35px rgba(29,55,72,.13)!important;z-index:1000!important;display:grid!important;gap:2px!important}
+.ag-dropdown-panel a{display:block!important;text-decoration:none!important;font-size:14px!important;font-weight:500!important;line-height:1.35!important;color:#193c50!important;padding:12px 13px!important;border-radius:10px!important;white-space:normal!important;background:transparent!important}
+.ag-dropdown-panel a:hover{background:#edf3f4!important}
+.ag-menu-toggle{display:none!important;align-items:center;gap:9px;border:1px solid #cbd9df;border-radius:999px;padding:10px 16px;background:#fff;color:#193c50;font:600 14px inherit;cursor:pointer}
+.ag-header-wrap>.brand{flex-shrink:0!important}
+/* Masquer l'ancien bouton mobile de l'accueil */
+#menu.menu-button{display:none!important}
+@media(max-width:950px){
+ .ag-header-wrap{position:relative!important;flex-wrap:wrap!important;min-height:75px!important;gap:8px!important;padding-top:12px!important;padding-bottom:12px!important}
+ .ag-menu-toggle{display:inline-flex!important;margin-left:auto!important}
+ .ag-nav{display:none!important;flex-basis:100%!important;width:100%!important;order:3!important;flex-direction:column!important;align-items:stretch!important;gap:2px!important;padding:12px!important;background:#fffdf9!important;border:1px solid rgba(30,65,80,.12)!important;border-radius:16px!important;box-shadow:0 10px 25px rgba(29,55,72,.08)!important;white-space:normal!important}
+ .ag-nav.ag-open{display:flex!important}
+ .ag-nav>a,.ag-nav summary{font-size:15px!important;padding:11px 13px!important;width:100%!important;justify-content:space-between!important}
+ .ag-nav .ag-contact{background:#edf3f4!important;justify-content:center!important}
+ .ag-dropdown-panel{position:static!important;box-shadow:none!important;border:0!important;background:#f1f5f5!important;min-width:0!important;margin:0 0 8px!important;padding:5px!important}
+ .ag-dropdown-panel a{font-size:14px!important}
+}
+@media(prefers-reduced-motion:reduce){.ag-nav *{transition:none!important}}
+</style></head>
 <body>
-<header class="top"><nav class="container nav" aria-label="Navigation principale"><a class="brand" href="index.html">Astrid Gatet</a><div class="navlinks"><a href="index.html">Accueil</a><a href="index.html#approche">Mon approche</a><a href="index.html#projets">Projets & regards</a><a href="mailto:astridlegoff@gmail.com?subject=Prise%20de%20contact%20depuis%20le%20site">Contact</a></div></nav></header>
+<header class="top ag-header-wrap container"><a class="brand" href="index.html">Astrid Gatet</a><button aria-controls="ag-nav" aria-expanded="false" class="ag-menu-toggle" type="button">Menu ☰</button><nav aria-label="Navigation principale" class="ag-nav" id="ag-nav">
+<a href="index.html">Accueil</a><a href="mon-parcours.html">Mon parcours</a>
+<details class="ag-dropdown"><summary>Mes regards <span aria-hidden="true">⌄</span></summary><div class="ag-dropdown-panel"><a href="experience-client.html">Expérience client</a><a href="marketing-digital.html">Marketing &amp; digital</a><a href="projets-transformation.html">Projets &amp; transformation</a><a href="management-collaboration.html">Management &amp; collaboration</a></div></details>
+<a href="index.html#projets">Projets</a><a class="ag-contact" href="index.html#contact">Contact</a>
+</nav></header>
 <main>
 <section class="hero"><div class="container"><div class="eyebrow">Mon regard · Expérience client</div><h1>L'expérience client ne commence pas toujours là où on l'imagine.</h1><p class="lead">Derrière chaque interaction client, il y a une organisation, des décisions, des outils et des personnes.</p></div></section>
 <section class="container intro reveal"><p>On parle souvent de l'expérience client à travers la satisfaction, les délais de réponse ou la qualité des échanges.</p><p>Ces éléments sont essentiels. Mais ils ne racontent pas toute l'histoire.</p><p>Une réponse peut être rapide sans résoudre réellement le problème. Un conseiller peut être parfaitement à l'écoute, mais ne pas disposer des informations ou des moyens nécessaires pour agir.</p><p>C'est pourquoi je suis convaincue que <strong>l'expérience client se construit bien avant le contact avec le client.</strong></p></section>
@@ -21,4 +54,10 @@
 <section class="closing container reveal"><p class="quote">« Une expérience client réussie ne dépend pas seulement de la qualité de la relation. Elle dépend aussi de la capacité de toute une organisation à agir de manière cohérente. »</p><a class="pill" href="index.html">← Retour à l'accueil</a></section>
 </main><footer class="footer"><div class="container"><span>© <span id="year"></span> Astrid Gatet · Site personnel</span><span>Conçu avec simplicité, curiosité et attention aux détails.</span></div></footer>
 <script>document.getElementById('year').textContent=new Date().getFullYear();if('IntersectionObserver' in window){const io=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');io.unobserve(e.target)}})},{threshold:.08});document.querySelectorAll('.reveal').forEach(e=>io.observe(e))}else{document.querySelectorAll('.reveal').forEach(e=>e.classList.add('visible'))}</script>
-</body></html>
+<script>document.addEventListener('DOMContentLoaded',function(){
+ const b=document.querySelector('.ag-menu-toggle'),n=document.querySelector('.ag-nav');
+ if(!b||!n)return;
+ b.addEventListener('click',function(){const open=n.classList.toggle('ag-open');b.setAttribute('aria-expanded',String(open));b.textContent=open?'Fermer ✕':'Menu ☰';});
+ n.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{n.classList.remove('ag-open');b.setAttribute('aria-expanded','false');b.textContent='Menu ☰';}));
+ document.addEventListener('click',function(e){document.querySelectorAll('.ag-dropdown[open]').forEach(d=>{if(!d.contains(e.target))d.removeAttribute('open')})});
+});</script></body></html>
