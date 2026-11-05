@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://astridgatet.github.io/sitemap.xml
